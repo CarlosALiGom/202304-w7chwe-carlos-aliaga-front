@@ -5,8 +5,8 @@ import { store } from "../../store";
 
 describe("Given an App component", () => {
   describe("When rendered", () => {
-    test("Then it should show the text 'Hello world!", () => {
-      const expectedText = /hello world!/i;
+    test("Then it should show the text '!Facebook", () => {
+      const expectedText = /!Facebook/i;
 
       render(
         <Provider store={store}>
