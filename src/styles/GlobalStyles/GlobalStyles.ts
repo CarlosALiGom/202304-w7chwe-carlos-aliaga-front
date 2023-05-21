@@ -1,6 +1,6 @@
 import { createGlobalStyle } from "styled-components";
 
-const GlobalStyle = createGlobalStyle`
+const GlobalStyles = createGlobalStyle`
   *,
   ::before,
   ::after {
@@ -8,7 +8,12 @@ const GlobalStyle = createGlobalStyle`
   }
 
   html {
-    font-family: 'Bitter', serif;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  }
+
+  body {
+    margin: 0;
+    background-color: #1D1C64;
   }
 
   a {
@@ -16,7 +21,6 @@ const GlobalStyle = createGlobalStyle`
     color:inherit;
   }
 
-  body,
   h1,
   h2,
   h3,
@@ -24,7 +28,6 @@ const GlobalStyle = createGlobalStyle`
   h5,
   h6 {
     margin: 0;
-    color: #1877f2;
   }
 
   ul {
@@ -39,10 +42,14 @@ const GlobalStyle = createGlobalStyle`
     border-style: none;
   }
 
+  input {
+    font-family: inherit;
+  }
+
   img {
     max-width: 100%;
   }
 
 `;
 
-export default GlobalStyle;
+export default GlobalStyles;
