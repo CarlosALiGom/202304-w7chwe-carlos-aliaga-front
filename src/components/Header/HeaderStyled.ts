@@ -9,6 +9,11 @@ const HeaderStyled = styled.header`
 
   .header__title {
     font-size: 48px;
+    color: #fff;
+  }
+
+  .header__logo {
+    margin-top: 5px;
   }
 `;
 
