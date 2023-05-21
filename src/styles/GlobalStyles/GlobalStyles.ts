@@ -24,6 +24,7 @@ const GlobalStyle = createGlobalStyle`
   h5,
   h6 {
     margin: 0;
+    color: #1877f2;
   }
 
   ul {
