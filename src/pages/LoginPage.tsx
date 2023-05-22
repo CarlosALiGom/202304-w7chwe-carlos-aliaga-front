@@ -7,7 +7,7 @@ const LoginPage = (): JSX.Element => {
 
   const handleFormSubmit = async (user: UserCredentials) => {
     const token = await getUserToken(user);
-    return token;
+    window.localStorage.setItem("token", token);
   };
 
   return <LoginForm submitForm={handleFormSubmit} />;

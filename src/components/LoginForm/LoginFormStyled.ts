@@ -35,12 +35,12 @@ const LoginFormStyled = styled.div`
 
   .form__button {
     margin-top: 5px;
-    padding: 5px;
+    padding: 8px;
     width: 100px;
     background-color: #1d1c64;
     color: #ffffff;
     border-radius: 10px;
-    border: 2px solid #1d1c64;
+    border: 2px solid #ffffff;
     :disabled {
       background-color: #1877f2;
       color: #ffffff;
