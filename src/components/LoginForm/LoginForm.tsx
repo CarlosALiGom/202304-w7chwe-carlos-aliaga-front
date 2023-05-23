@@ -11,6 +11,7 @@ const LoginForm = ({ submitForm }: LoginFormStructure): JSX.Element => {
     username: "",
     password: "",
   };
+
   const [userCredentials, setUserCredentials] = useState(
     initialUserCredentials
   );
@@ -35,6 +36,7 @@ const LoginForm = ({ submitForm }: LoginFormStructure): JSX.Element => {
     <LoginFormStyled>
       <form className="form" onSubmit={handleLoginForm}>
         <h2 className="form-title">Login</h2>
+
         <div className="form__control">
           <label className="form__label" htmlFor="username">
             Username:
