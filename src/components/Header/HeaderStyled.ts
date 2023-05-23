@@ -5,7 +5,7 @@ const HeaderStyled = styled.header`
   justify-content: center;
   margin-top: 50px;
   color: #1877f2;
-  gap: 20px;
+  gap: 10px;
 
   .header__title {
     font-size: 48px;
